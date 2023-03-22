@@ -1,0 +1,29 @@
+{
+  "name": "passport-asgardeo-oidc",
+  "version": "0.1.0",
+  "description": "Asgardeo authentication strategy for Passport using OpenID Connect.",
+  "keywords": [
+    "passport",
+    "asgardeo",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "passport-openidconnect": "0.1.x"
+  },
+  "devDependencies": {
+    "make-node": "0.4.6",
+    "mocha": "2.x.x",
+    "chai": "2.x.x",
+    "chai-passport-strategy": "1.x.x"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "scripts": {
+    "test": "mocha --require ./test/bootstrap/node --recursive"
+  }
+}
